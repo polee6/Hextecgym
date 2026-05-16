@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hextecgym | Qui som</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<header class="site-header"><a class="logo" href="index.html"><i class="fa-solid fa-dumbbell"></i> Hextec<span>gym</span></a><button class="nav-toggle" aria-label="Obrir menú"><i class="fa-solid fa-bars"></i></button><nav><ul class="nav-list"><li><a href="index.html">Inici</a></li><li><a class="active" href="info.html">Qui som</a></li><li><a href="media.html">Multimèdia</a></li><li><a href="mapa.html">Mapa</a></li><li><a href="contacte.html">Contacte</a></li></ul></nav></header>
+<main>
+  <section class="page-hero reveal">
+    <p class="eyebrow"><i class="fa-solid fa-circle-info"></i> Qui som</p>
+    <h1>Un espai per entrenar amb tranquil·litat, motivació i resultats.</h1>
+    <p>Hextecgym és una xarxa de gimnasos a Catalunya creada per apropar el fitness a totes les persones, sigui quin sigui el seu nivell o objectiu.</p>
+  </section>
+
+  <section class="two-col reveal">
+    <div class="glass-card">
+      <h2>La nostra història</h2>
+      <p>Vam néixer amb una idea clara: fer que anar al gimnàs sigui fàcil, agradable i segur. Per això combinem tecnologia, entrenament personalitzat i espais moderns on tothom se senti benvingut.</p>
+      <p>No importa si comences de zero o si ja tens experiència. El nostre equip t’ajuda a crear una rutina realista i adaptada a tu.</p>
+    </div>
+    <div class="glass-card highlight">
+      <h2>Els nostres valors</h2>
+      <ul class="clean-list">
+        <li><i class="fa-solid fa-handshake"></i> Tracte proper i transparent</li>
+        <li><i class="fa-solid fa-seedling"></i> Hàbits saludables a llarg termini</li>
+        <li><i class="fa-solid fa-users"></i> Comunitat respectuosa i inclusiva</li>
+        <li><i class="fa-solid fa-medal"></i> Compromís amb la qualitat</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <div class="section-title"><p class="eyebrow">Serveis</p><h2>Tot el que necessites en un sol lloc</h2></div>
+    <div class="cards-grid">
+      <article class="feature-card"><i class="fa-solid fa-dumbbell"></i><h3>Musculació</h3><p>Zones àmplies amb màquines modernes i pes lliure per entrenar amb comoditat.</p></article>
+      <article class="feature-card"><i class="fa-solid fa-bolt"></i><h3>Classes dirigides</h3><p>HIIT, spinning, tonificació, mobilitat i activitats per millorar cada setmana.</p></article>
+      <article class="feature-card"><i class="fa-solid fa-user-nurse"></i><h3>Assessorament</h3><p>Orientació inicial i seguiment perquè entrenis amb seguretat i confiança.</p></article>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><p>© 2026 Hextecgym</p></footer>
+<script src="js/script.js"></script>
+<div class="chatbot">
+  <button class="chatbot-button" id="chatbotButton">
+    <i class="fa-solid fa-comments"></i>
+  </button>
+
+  <div class="chatbot-window" id="chatbotWindow">
+    <div class="chatbot-header">
+      <strong>Suport Hextecgym</strong>
+      <button id="chatbotClose">×</button>
+    </div>
+
+    <div class="chatbot-body">
+      <p class="bot-msg">Hola! 👋 Sóc l’assistent de Hextecgym. En què et puc ajudar?</p>
+
+      <button class="quick-question">Horaris</button>
+      <button class="quick-question">Preus</button>
+      <button class="quick-question">Gimnasos 24h</button>
+      <button class="quick-question">Contacte</button>
+
+      <p class="bot-response" id="botResponse"></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
